@@ -117,8 +117,8 @@ Esses deverão ser completados para que os testes sejam satisfeitos.
     
     Esse método deve receber o `Id` de um game e retornar uma lista de todos os usuários que possuem o game do `Id` informado. 
     
-   Exemplo de retorno:
-   ```jsx
+    Exemplo de retorno:
+ ```jsx
 [
 	{
 		id: '81482ac4-29bd-497f-b71a-8ae3b20eca9b',
@@ -138,32 +138,3 @@ Esses deverão ser completados para que os testes sejam satisfeitos.
 	}
 ]
 ```
-
-## Específicação dos testes
-
-Para esse desafio, temos os seguintes testes:
-
-- **[UsersRepository] should be able to find user with games list by user's ID**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
-    
-- **[UsersRepository] should be able to list users ordered by first name**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
-    
-- **[UsersRepository] should be able to find user by full name**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui.](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45)
-    
-- **[GamesRepository] should be able find a game by entire or partial given title**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45)[.](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45)
-    
-- **[GamesRepository] should be able to get the total count of games**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
-    
-- **[GamesRepository] should be able to list users who have given game id**
-    
-    Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
-    
